@@ -42,7 +42,7 @@ function Login() {
                 ]}
                 message={{
                   msg: 'Sucesso!!!',
-                  type: 'succes',
+                  type: 'success',
                 }}
               />
             </Container>
