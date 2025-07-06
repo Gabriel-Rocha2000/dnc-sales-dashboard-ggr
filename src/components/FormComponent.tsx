@@ -21,7 +21,7 @@ function FormComponent(props: FormComponentProps) {
         <StyledButton key={index} {...buttonProps} />
       ))}
       {message && (
-        <div style={{ color: message.type === 'error ' ? 'red' : 'green' }}>
+        <div style={{ color: message.type === 'error' ? 'red' : 'green' }}>
           {message.msg}
         </div>
       )}
